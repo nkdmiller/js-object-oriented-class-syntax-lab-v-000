@@ -18,16 +18,14 @@ class BoardMember {
     return 'You will see great things fro Scuber.';
   }
   sayHi() {
-    return 'Hi, my name is ${this.name} I am from <homestate>, and I was trained in <training>.';
+    return `Hi, my name is ${this.name} I am from ${this.homeState}, and I was trained in ${this.training}.`;
   }
 }
  
  
-class Teacher extends User {
+class Ceo extends BoardMember {
   sayHello(){
     super.sayHello()
     console.log('hello')
   }
 }
- 
-tom.sayHello()
