@@ -24,8 +24,7 @@ class BoardMember {
  
  
 class Ceo extends BoardMember {
-  sayHello(){
-    super.sayHello()
-    console.log('hello')
+  hireEmployee(){
+    return "Welcome aboard!";
   }
 }
