@@ -6,8 +6,12 @@ class BoardMember {
   }
  
   veto() {
-    console.log(`Hello, my name is ${this.name}`);
+    console.log(`No, I must disagree`);
   }
+  approve() {
+    console.log('You can do that!');
+  }
+  
 }
  
  
