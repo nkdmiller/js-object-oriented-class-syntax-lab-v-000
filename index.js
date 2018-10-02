@@ -9,9 +9,17 @@ class BoardMember {
     return `No, I must disagree`;
   }
   approve() {
-    console.log('You can do that!');
+    return 'You can do that!';
   }
-  
+  doCharity() {
+    return 'I like to help people.';
+  }
+  releasePressStatement() {
+    return 'You will see great things fro Scuber.';
+  }
+  sayHi() {
+    return 'You can do that!';
+  }
 }
  
  
