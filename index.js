@@ -6,7 +6,7 @@ class BoardMember {
   }
  
   veto() {
-    console.log(`No, I must disagree`);
+    return `No, I must disagree`;
   }
   approve() {
     console.log('You can do that!');
